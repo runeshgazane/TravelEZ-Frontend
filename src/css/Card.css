@@ -1,7 +1,25 @@
+/* Card.css */
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 15px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  flex: 0 0 calc(20% - 10px); /* Set each card to occupy 20% of the container width minus some spacing */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 1px; /* Add some spacing between cards */
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }

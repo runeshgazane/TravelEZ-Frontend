@@ -1,0 +1,10 @@
+.reimbursement-guide {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.guide-heading {
+  text-align: center;
+}
